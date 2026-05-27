@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  /* DEFAULT BACKGROUND */
+  background: url("https://images.unsplash.com/photo-1502082553048-f009c37129b9") no-repeat center center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: background 0.5s ease;
+}
+
+.weather-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 0;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #ff5e57;
+  color: white;
+  font-weight: bold;
+}
+
+.clear-btn {
+  background: gray;
+}
+
+#weatherResult {
+  margin-top: 15px;
+}
